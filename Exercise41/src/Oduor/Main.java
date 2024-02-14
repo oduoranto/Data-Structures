@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-
+//print the arrays sorted in descending order
 int arr[] = getInteger(4);
 System.out.println("----> " + Arrays.toString(arr));
-
+//print each element in the array
 int [] arr1 = new int[]{12,45,3039,990,2344,2292,0};
 printArray(arr1);
-
+//sorts the array
 int [] arr2 = new int[]{12,976,76,986,56,223,21};
 System.out.println(Arrays.toString(sortInteger(arr2)));
 
